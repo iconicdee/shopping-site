@@ -1,5 +1,4 @@
 import React from 'react';
-import './Item.css';
 
 export default function Item({item,onAddToCart,children}) {
   return (

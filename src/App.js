@@ -1,4 +1,4 @@
-import './App.css';
+
 import React, {useState} from 'react';
 import Nav from './Nav';
 import ItemPage from './ItemsPage';

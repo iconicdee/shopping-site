@@ -1,6 +1,4 @@
 import React,{useState} from 'react';
-import './Nav.css';
-
 
  export default function Nav({activeTab,onTabChange,total,totalPrice,onClickCart}) {
   return (

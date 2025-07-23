@@ -1,5 +1,4 @@
 import React from 'react';
-import './ItemPage.css';
 import {items} from './items';
 import Item from './Item';
 
