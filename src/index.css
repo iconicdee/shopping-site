@@ -284,6 +284,10 @@ a{
       font-size: 20px;
     margin: 0 5px;
 }
+.Cart-price {
+  font-size: var(--h5);
+    margin-left: 35px;
+}
 @media(max-width:500px) {
   .App{
     min-width: 440px;

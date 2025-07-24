@@ -28,6 +28,7 @@ export default function CartPage({items,onAddOne,onRemoveOne,finalPrice}) {
           )}
               
         </ul>
+        <p className='Cart-price'>Total Price: ${finalPrice}</p>
       </>
       
       
