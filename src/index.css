@@ -300,10 +300,18 @@ a{
     display:block;
     justify-self: flex-end;
   }
+  .totalPrice{
+    margin: 10px 150px;
+    font-size: var(--h5);
+  }
 }
 @media (max-width:545px) {
   .App{
     min-width:440px;
+  }
+  .totalPrice{
+    margin: 10px 150px;
+    font-size: var(--h5);
   }
 }
 

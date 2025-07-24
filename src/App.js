@@ -52,7 +52,7 @@ function App () {
     switch(tab) {
       default:
       case 0:
-        return <ItemPage items={items} onAddToCart={handleAddToCart} cart={cart} />;
+        return <ItemPage items={items} onAddToCart={handleAddToCart} cart={cart} totalPrice={totalPrice}/>;
 
       case 1:
         return renderCart();
